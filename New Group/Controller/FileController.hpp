@@ -17,7 +17,7 @@
 #include <vector>
 #include <sstream>
 
-class FileController()
+class FileController
 {
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
