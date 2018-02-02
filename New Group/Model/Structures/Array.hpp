@@ -10,5 +10,25 @@
 #define Array_hpp
 
 #include <stdio.h>
+#include <assert.h>
+#include <iostream> //tracing and debugging
+
+using namespace std;
+
+template <class Type>
+class Array
+{
+private:
+    Type * internalArray;
+    int size;
+public:
+    //Constructor
+    Array<Type(int size)>;
+    
+    //Copy Constructor
+    //TODO: OOP template array class
+}
+
+
 
 #endif /* Array_hpp */
