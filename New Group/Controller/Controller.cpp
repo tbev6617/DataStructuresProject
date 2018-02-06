@@ -7,18 +7,22 @@
 //
 
 #include "Controller.hpp"
+#include "ArrayTester.hpp"
 
 using namespace std;
 
 void Controller :: start()
 {
-    cout << "Testing the TimeClass" << endl;
-    Timer codeTimer;
-    codeTimer.startTimer();
-    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/tbev6617/Documents/Data Structures/DataStructuresProject/New Group/Data/crime.csv");
-    codeTimer.stopTimer();
-    codeTimer.displayInformation();
-    findMaxAndMin();
+//    cout << "Testing the TimeClass" << endl;
+//    Timer codeTimer;
+//    codeTimer.startTimer();
+//    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/tbev6617/Documents/Data Structures/DataStructuresProject/New Group/Data/crime.csv");
+//    codeTimer.stopTimer();
+//    codeTimer.displayInformation();
+//    findMaxAndMin();
+    ArrayTester myTest;
+    myTest.testArray();
+    myTest.testAdvancedArray();
 }
 
 void Controller :: findMaxAndMin()
